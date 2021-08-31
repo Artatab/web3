@@ -1,0 +1,144 @@
+body {box-sizing: border-box;}
+
+
+.navbar{background-color: black}
+
+
+.logo {color: white;
+ text-align: left;
+font-size: 30px;
+font-family: monospace;
+}
+
+.lists {position: relative;
+font-family: serif;
+text-align: right;
+ }
+
+li { list-style: none;}
+
+#link {
+text-decoration: none;
+}
+
+#text {color: white;
+ font-size: 20px;
+margin-right: 15px;
+margin-left:10px;
+display: inline-block;
+position: relative;
+margin-bottom:15px;
+margin-top: 20px;}
+
+
+
+#text:hover
+ {
+ display:inline;
+border: solid white 3px;
+padding-left:2px;
+padding-right:2px;}
+
+
+#text { transition: top, right, bottom, left, 100ms ease-in-out}
+
+
+.logoL { text-decoration: none;}
+
+
+#img {width: 80%
+}
+
+
+@media {#img1, #img2, #img3, #img4
+{
+margin-top: 10px;
+text-align: center;
+ transition: top, right, bottom, left, 100ms ease-in-out
+ margin-bottom: 30px;
+}
+    #img1 {width: 25%;}
+    #img2 {width: 25%;}
+    #img3 {width: 25%;}
+    #img4 {width: 25%;}
+}
+
+
+
+#img:hover
+{
+border: solid balck 3px;
+width: 90%;
+}
+
+#img { transition: top, right, bottom, left, 100ms ease-in-out}
+
+
+
+@media {#img5, #img6, #img7, #img8
+{
+margin-top: 10px;
+text-align: center;
+ margin-bottom: 50px;
+ transition: top, right, bottom, left, 100ms ease-in-out;
+display: none;
+}
+    #img5 {width: 25%;}
+    #img6 {width: 25%;}
+    #img7 {width: 25%;}
+    #img8 {width: 25%;}
+}
+
+
+
+
+#seemore {
+  margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+background-color: black;
+color:white;
+text-align: center;}
+
+#seeless {
+  margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+background-color: black;
+color:white;
+text-align: center;
+margin-bottom: 10px;
+display: none;
+
+}
+
+
+@media (max-width: 767px){
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8,
+
+#img1{width: 100%;
+ align-items: center;}
+
+#img2{width: 100%;
+}
+
+#img3{width: 100%;
+}
+
+#img4{width: 100%;
+}
+
+#img5{width: 100%;
+}
+
+#img6{width: 100%;
+}
+
+#img7{width: 100%;
+}
+
+#img8{width: 100%;
+}
+
+
+}
